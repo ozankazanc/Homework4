@@ -1,5 +1,7 @@
 package hWork4;
 
+import hWork4.Abstract.ICustomerService;
+
 public abstract class BaseCustomerManager implements ICustomerService {
 
 	@Override

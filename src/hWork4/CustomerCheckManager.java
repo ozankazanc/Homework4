@@ -1,4 +1,5 @@
 package hWork4;
+import hWork4.Abstract.ICustomerCheckService;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 
 public class CustomerCheckManager implements ICustomerCheckService {
