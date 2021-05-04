@@ -12,10 +12,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new NeroCustomerManager();
-		customerManager.save(new Customer(1, "HÜSEYÝN OZAN", "KAZANÇ", LocalDate.of(1995, 02, 02), "23437528374"));
+		customerManager.save(new Customer(1, "HÜSEYÝN OZAN", "KAZANÇ", LocalDate.of(1995, 02, 17), "23437215374"));
 
 		BaseCustomerManager customerManager2 = new StarBucksCustomerManager(new MernisServiceAdapter());
-		customerManager2.save(new Customer(1, "HÜSEYÝN OZAN", "KAZANÇ", LocalDate.of(1995, 02, 02), "23437528375"));
+		customerManager2.save(new Customer(1, "HÜSEYÝN OZAN", "KAZANÇ", LocalDate.of(1995, 05, 17), "23437215374"));
 
 	}
 
