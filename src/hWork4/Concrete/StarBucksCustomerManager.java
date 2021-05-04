@@ -1,7 +1,8 @@
-package hWork4;
+package hWork4.Concrete;
 
-import hWork4.BaseCustomerManager;
+import hWork4.Abstract.BaseCustomerManager;
 import hWork4.Abstract.ICustomerCheckService;
+import hWork4.Entities.Customer;
 
 public class StarBucksCustomerManager extends BaseCustomerManager {
 

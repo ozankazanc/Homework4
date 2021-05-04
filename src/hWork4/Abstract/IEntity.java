@@ -1,4 +1,4 @@
-package hWork4;
+package hWork4.Abstract;
 
 public interface IEntity {
 

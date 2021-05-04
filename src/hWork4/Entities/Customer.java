@@ -1,4 +1,4 @@
-package hWork4;
+package hWork4.Entities;
 
 import java.sql.Date;
 import java.time.LocalDate;

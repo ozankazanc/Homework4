@@ -1,6 +1,5 @@
-package hWork4;
-
-import hWork4.Abstract.ICustomerService;
+package hWork4.Abstract;
+import hWork4.Entities.Customer;
 
 public abstract class BaseCustomerManager implements ICustomerService {
 

@@ -3,7 +3,9 @@ package hWork4;
 
 import java.time.LocalDate;
 
-import hWork4.BaseCustomerManager;
+import hWork4.Abstract.BaseCustomerManager;
+import hWork4.Concrete.NeroCustomerManager;
+import hWork4.Entities.Customer;
 
 public class Main {
 
