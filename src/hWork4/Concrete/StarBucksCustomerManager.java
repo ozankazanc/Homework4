@@ -17,10 +17,11 @@ public class StarBucksCustomerManager extends BaseCustomerManager {
 		if(customerService.CheckIfRealPerson(customer))
 		{
 			super.save(customer);
+			
 		}
 		else
 		{
-			//
+			System.out.println("Bu kiþi bulunmamaktadir.");
 		}
 		
 	}
